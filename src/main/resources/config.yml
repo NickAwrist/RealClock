@@ -1,0 +1,16 @@
+twelve_12_hour_system: true
+time_message: true
+villager_message: true
+
+clock_item: "CLOCK"
+
+Messages:
+  # %HOUR% = Hour of world. This is converted from normal Minecraft world's thousands place.
+  # %MINUTE% = Minute of the world. This is the first two numbers from normal Minecraft world's hundredth place
+  # %MIDDAY% = AM or PM (if 12 hour system is false this will not show up)
+  # RIGHT CLICK
+  time_message: "The time is &6&n%HOUR%:%MINUTE% %MIDDAY%"
+  
+  # LEFT CLICK
+  villager_message_awake: "The villagers are currently awake."
+  villager_message_asleep: "The villagers are currently asleep."

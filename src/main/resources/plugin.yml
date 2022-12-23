@@ -1,0 +1,6 @@
+name: RealClock
+version: '${project.version}'
+main: me.nicka.realclock.realclock.RealClock
+api-version: 1.19
+authors: [ Nick_the_block ]
+description: Plugin that allows you to see the real in game time
